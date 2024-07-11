@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+/* header */
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    padding: 30px;
+    background-color: black;
+}
+.list-items{
+list-style: none;
+display: inline;
+margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.links:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: 700;
+}
+/* home */
+.img1{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.para1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    color: aliceblue;
+    bottom: 300px;
+    left: 380px;
+    font-family: "Ga Maamli", sans-serif;
+}
+/* brands */
+
+#brands{
+    margin: 5% 5% 5% 5%;
+}
+.section-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 40px;
+    padding: 10px
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px;
+    gap: 15px;
+    /* border: solid 1px; */
+    margin-left: 70px;
+}
+.img-grid{
+    width: 100%;
+    height: 60vh;
+    /* gap: 20px 20px; */
+}
+.img-grid2{
+    width: 100%;
+    height: 30vh;
+    /* gap: 20px 20px; */
+}
+.img-grid5{
+    width: 100%;
+    height: 676px;
+    /* gap: 20px 20px; */
+    margin-top: -130%;
+}
+.img-grid4{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: -200px;
+}
+.img-grid1{
+    width: 100%;
+    height: 676px;
+    /* gap: 20px 20px; */
+    /* margin-top: 130px; */
+}
+.img-grid3{
+    width: 100%;
+    height: 676px;
+    /* gap: 20px 20px; */
+    /* margin-top: 130px; */
+}
+.img-grid6{
+    width: 100%;
+    height: 30vh;
+}
+/* items */
+#items{
+    margin: 5% 5% 5% 5%;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    text-align: center;
+    margin-top: 30px;
+}
+.carditem{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    padding: 20px;
+}
+.card-head{
+    font-size:20px ;
+    padding: 10px;
+}
+/* black part */
+
+.black{
+    margin: 5% 0px 0px 0px;
+    border: 1px solid;
+    padding: 40px;
+    background-color: black;
+}
+.table-1{
+    text-align: center;
+    /* border: 2px solid white; */
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: collapse;
+    padding: 50px;
+    /* width: 100%; */
+    /* height: 50%; */
+}
+th{
+    width: 10%;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border: 2px dashed;
+}
+/* video */
+.video{
+    margin: 5% 0px 0px 0px;
+}
+/* team */
+.team{
+    margin: 5% 5% 5% 5%;
+}
+.team-head{
+    text-align: center;
+}
+.team-head h2{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+}
+.team-head p{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.team-member{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.child{
+    padding: 10px;
+}
+.child img{
+    width: 280px;
+    height: 400px;
+}
+.child h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.child p{
+    text-align: center;
+    font-size: 17px;
+}
+/* footer */
+/* footer */
+.parent{
+    background-color:black;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    border-top: solid 1px white;
+}
+.fchild{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
+.ftr{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+ 
+}
+
+.icon{
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    
+}
+#contact{
+    margin: 20px ;
+}
+.brands{
+    font-size: 50px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,yellow,rgb(0, 106, 255),rgb(225, 5, 225));
+}
+
+/* ---------------animation ------------------------ */
+.icon:hover .brands{
+    animation: shake 3s;
+    color: aliceblue;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
